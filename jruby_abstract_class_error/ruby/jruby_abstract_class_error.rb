@@ -1,5 +1,5 @@
 require 'java'
-$CLASSPATH << 'java_classes'
+$CLASSPATH << 'compiled_java'
 
 module JrubyAbstractClassError
   include_package 'com.almondbranchsoftware.jruby_abstract_class'
